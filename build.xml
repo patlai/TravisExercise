@@ -9,6 +9,10 @@
     <mkdir dir="${classdir}" />
   </target>
 
+  <target name=test>
+    
+  </target>
+
   <target name="compile" depends="init">
     <javac
       srcdir="src"
